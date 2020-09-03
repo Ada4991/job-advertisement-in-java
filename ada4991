@@ -1,0 +1,26 @@
+public JobOffer Prepare(){
+
+  var frameworks = {"Spring", "JPA, "Hibernate"};
+
+	return new JobOfferBuilder("Java Developer")
+		setMinExperience(1Y)
+		setExpectedTechStack(frameworks)
+		addAdvantage("chęć do ciągłego rozwoju")
+		addAdvange("umiejętność pracy zespołowej")
+		build();
+}
+
+public Employee examine(Candidate candidate){
+
+	JobOffer job - prepare();
+
+	if(candidate.lockNewOpportunity()){
+		for(Skill skill : candidate.getSkills())}
+			scoreSkill(skill,job);
+		}
+	}
+  
+	if(candidate.match(job) && candidate.highRank()){
+		inviteToInterview("Talent Place")
+	}
+}
